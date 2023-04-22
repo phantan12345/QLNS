@@ -46,7 +46,7 @@ namespace GUI
             }
 
 
-            MainUser user = new MainUser(nv);
+            MainFr user = new MainFr(nv);
             user.ShowDialog();
 
         }
@@ -76,7 +76,7 @@ namespace GUI
             }
 
 
-            MainUser user = new MainUser(nv);
+            MainFr user = new MainFr(nv);
             user.ShowDialog();
 
         }

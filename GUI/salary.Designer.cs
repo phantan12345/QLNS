@@ -29,12 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(salary));
-            this.button1 = new System.Windows.Forms.Button();
-            this.lb_option = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -95,6 +89,7 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.button13 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
@@ -139,11 +134,7 @@
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
-            this.button13 = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
-            this.panel4.SuspendLayout();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -163,74 +154,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.groupBox7.SuspendLayout();
             this.groupBox8.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(5, 255);
-            this.button1.Margin = new System.Windows.Forms.Padding(5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(233, 77);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Thoát";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // lb_option
-            // 
-            this.lb_option.AutoSize = true;
-            this.lb_option.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_option.ForeColor = System.Drawing.Color.Black;
-            this.lb_option.Location = new System.Drawing.Point(362, 17);
-            this.lb_option.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lb_option.Name = "lb_option";
-            this.lb_option.Size = new System.Drawing.Size(300, 36);
-            this.lb_option.TabIndex = 0;
-            this.lb_option.Text = "Thông Tin Nhân Viên";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.LightBlue;
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 65);
-            this.panel1.Margin = new System.Windows.Forms.Padding(5);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(243, 684);
-            this.panel1.TabIndex = 6;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::GUI.Properties.Resources.hr;
-            this.pictureBox1.InitialImage = global::GUI.Properties.Resources.hr;
-            this.pictureBox1.Location = new System.Drawing.Point(5, 5);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(238, 212);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.LightBlue;
-            this.panel2.Controls.Add(this.lb_option);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(5);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1265, 65);
-            this.panel2.TabIndex = 7;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.panel_ThongTin);
-            this.panel4.Controls.Add(this.tabControl1);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1265, 749);
-            this.panel4.TabIndex = 5;
             // 
             // tabControl1
             // 
@@ -889,7 +814,7 @@
             this.panel_ThongTin.Location = new System.Drawing.Point(0, 0);
             this.panel_ThongTin.Margin = new System.Windows.Forms.Padding(5);
             this.panel_ThongTin.Name = "panel_ThongTin";
-            this.panel_ThongTin.Size = new System.Drawing.Size(1265, 749);
+            this.panel_ThongTin.Size = new System.Drawing.Size(1161, 749);
             this.panel_ThongTin.TabIndex = 2;
             // 
             // tabControl2
@@ -897,11 +822,13 @@
             this.tabControl2.Controls.Add(this.tabPage3);
             this.tabControl2.Controls.Add(this.tabPage4);
             this.tabControl2.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl2.Location = new System.Drawing.Point(247, 70);
+            this.tabControl2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.tabControl2.Location = new System.Drawing.Point(71, 44);
             this.tabControl2.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
             this.tabControl2.Size = new System.Drawing.Size(1014, 675);
+            this.tabControl2.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl2.TabIndex = 1;
             // 
             // tabPage3
@@ -941,6 +868,26 @@
             this.groupBox5.TabIndex = 4;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Các chức năng";
+            // 
+            // button13
+            // 
+            this.button13.BackgroundImage = global::GUI.Properties.Resources.xanh;
+            this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Image = global::GUI.Properties.Resources.exiit;
+            this.button13.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.button13.Location = new System.Drawing.Point(578, 26);
+            this.button13.Margin = new System.Windows.Forms.Padding(4);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(97, 32);
+            this.button13.TabIndex = 4;
+            this.button13.Text = "Xóa   ";
+            this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button11
             // 
@@ -1150,9 +1097,9 @@
             this.label14.Location = new System.Drawing.Point(484, 117);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(88, 17);
+            this.label14.Size = new System.Drawing.Size(81, 17);
             this.label14.TabIndex = 0;
-            this.label14.Text = "Ngày sửa PC";
+            this.label14.Text = "Ngày sử PC";
             this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // label22
@@ -1456,41 +1403,25 @@
             this.label36.TabIndex = 0;
             this.label36.Text = "Mã nhân viên";
             // 
-            // button13
+            // panel4
             // 
-            this.button13.BackgroundImage = global::GUI.Properties.Resources.xanh;
-            this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Image = global::GUI.Properties.Resources.exiit;
-            this.button13.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.button13.Location = new System.Drawing.Point(578, 26);
-            this.button13.Margin = new System.Windows.Forms.Padding(4);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(97, 32);
-            this.button13.TabIndex = 4;
-            this.button13.Text = "Xóa   ";
-            this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
+            this.panel4.Controls.Add(this.panel_ThongTin);
+            this.panel4.Controls.Add(this.tabControl1);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(1161, 749);
+            this.panel4.TabIndex = 5;
             // 
             // salary
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1265, 749);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel2);
+            this.ClientSize = new System.Drawing.Size(1161, 749);
             this.Controls.Add(this.panel4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "salary";
             this.Text = "salary";
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel4.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -1514,18 +1445,13 @@
             this.groupBox7.ResumeLayout(false);
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
+            this.panel4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label lb_option;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.DataGridView dataGridView1;
@@ -1586,6 +1512,7 @@
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;
@@ -1630,6 +1557,6 @@
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Panel panel4;
     }
 }

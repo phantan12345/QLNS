@@ -111,10 +111,14 @@ D:\tan\Project-LTCSDL\QLNS\GUI\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
 D:\tan\Project-LTCSDL\QLNS\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
 D:\tan\Project-LTCSDL\QLNS\GUI\obj\Debug\GUI.csproj.SuggestedBindingRedirects.cache
 D:\tan\Project-LTCSDL\QLNS\GUI\obj\Debug\GUI.DangNhap.resources
-D:\tan\Project-LTCSDL\QLNS\GUI\obj\Debug\GUI.MainUser.resources
 D:\tan\Project-LTCSDL\QLNS\GUI\obj\Debug\GUI.Properties.Resources.resources
 D:\tan\Project-LTCSDL\QLNS\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
 D:\tan\Project-LTCSDL\QLNS\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 D:\tan\Project-LTCSDL\QLNS\GUI\obj\Debug\GUI.csproj.CopyComplete
 D:\tan\Project-LTCSDL\QLNS\GUI\obj\Debug\GUI.exe
 D:\tan\Project-LTCSDL\QLNS\GUI\obj\Debug\GUI.pdb
+D:\tan\Project-LTCSDL\QLNS\GUI\obj\Debug\GUI.Department.resources
+D:\tan\Project-LTCSDL\QLNS\GUI\obj\Debug\GUI.Employee.resources
+D:\tan\Project-LTCSDL\QLNS\GUI\obj\Debug\GUI.MainFr.resources
+D:\tan\Project-LTCSDL\QLNS\GUI\obj\Debug\GUI.regime.resources
+D:\tan\Project-LTCSDL\QLNS\GUI\obj\Debug\GUI.salary.resources
